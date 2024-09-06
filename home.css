@@ -1,0 +1,23 @@
+body{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display:flex;
+}
+
+.startButton{
+    height:150px;
+    border-radius: 50%;
+    font-size: 3rem;
+    color:#FF9800;
+    background-color:black;
+    border:1px solid black ;
+    padding: .25em .5em;
+    cursor: pointer;
+}
+
+.startButton:hover{
+    background-color: #FF9800;
+    color:black;
+    border-color:white
+}
